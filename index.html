@@ -15,26 +15,32 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
+
+
+	<body onload="document.getElementById('home').classList.toggle('hidden')">
 		<header>	
 			<img class="logo" src="img/logo.png">
 		</header>
+
+
 		<!--home-->
-		<section class="intro home">
-			<blockquote class="says" cite="#">
-				<p><i>" Somewhere, something incredible <br>is waiting to be </i></p>
-				<p><i>known. "</i></p>
-			</blockquote>
-			<figcaption class="says">━━Carl Sagan</figcaption>
+		<section id="home" class="hidden">
+			<section class="intro">
+				<blockquote class="says" cite="#">
+					<p><i>" Somewhere, something incredible <br>is waiting to be </i></p>
+					<p><i>known. "</i></p>
+				</blockquote>
+				<figcaption class="says">━━Carl Sagan</figcaption>
+			</section>
+			<div class="begin">
+				<button id="btn1" class="btn" type="button">Let's GO!</button>
+			</div>
 		</section>
-		<div class="begin home">
-			<a href="#"><button class="btn" type="button">Begin Your Journey</button></a>
-		</div>
 
 
 
 	<!--Begin!-->
-		<section class="takeOff middle">
+		<section id="middle" class="takeOff hidden">
 			<section class="purpose">
 				<h1>NASA Astronomy Picture of the Day</h1>
 
@@ -49,23 +55,26 @@
 						<input type = "date"><br>
 					</div>
 					<div>
-						<button class="liftOff" type = "submit">Lift Off!</button>
+						<button id="btn2" class="liftOff" type = "submit">Lift Off!</button>
 					</div>
 				</form>
 			</section>
 		</section>
 		<!--Info-->
-		<section class="info">
-			<div class="imageHere">
+
+
+
+		<section id="searchRes" class="info hidden">
+			<section class="imageHere">
 				<img src="img/try.jpg">
-			</div>
+			</section>
 			<section class="description">
 				<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut reprehenderit consequatur provident cumque, corporis enim dignissimos nesciunt ex similique, illo natus tenetur! Natus magnam temporibus ab itaque! Molestias, vel labore!</h3>
 			</section>
 			<div class="break"></div>
-			<form>
-				<button class="anotherOne" type = "submit">Lift Off!</button>
-			</form>
+			<section class="anotherForm">
+				<button id="btn3" class="anotherOne" type = "submit">Another One</button>
+			</section>
 
 
 
