@@ -22,6 +22,7 @@ body{
   font-family: 'Orbitron', sans-serif;
   min-height: 100%;
 }
+
 .logo{
   display:flex;
   align-items: center;
@@ -92,6 +93,7 @@ a,.btn{
     height:1150px;
     border-radius:20px;
     background-color:hsla(0, 0%, 0%, 0.48);
+    background-position:center center;
     text-align:center;
     font-weight:500;
     display:flex;
@@ -138,44 +140,41 @@ div>input{
 
 
 
+
+
 .info{
   height:1150px;
+  width:100%;
   max-width:100%;
+  max-height: 100%;
   border-radius:20px;
   background-color:hsla(0, 0%, 0%, 0.48);
   font-weight:500;
-  display:flex;
-  flex-flow: row wrap;
-  justify-content:space-around;
-  padding-top:10em;
-
-
+  padding-top:5em;
+  background-position:center center;
+  display:block;
 }
 .imageHere{
   height:40em;
   width:60em;
   max-width:100%;
   max-height:100%;
-  border:1px solid white;
+  /* border:1px solid white; */
+  margin:0 auto;
 }
 .imageHere>img{
   max-width:100%;
   max-height:100%;
-
 }
 .description{
-  height:40em;
-  width:60em;
-  max-height:100%;
-  max-width:100%;
+  width:100%;
+  max-height:max-content;
   background-color:hsla(0, 0%, 0%, 0.60);
   border-radius: 10px;
+  margin:0 auto;
+  padding:2em 8em;
 }
 
-
-.description>h3{
-  padding-left:3em;
-}
 .anotherOne{
   height:60px;
   width:300px;
@@ -184,10 +183,15 @@ div>input{
   border-radius:20px;
   background-image: linear-gradient(to right, #e7e9eb, #cacbcc, #adaeaf, #919192, #767676);
   color:rgb(248, 248, 248);
-
 }
 .anotherOne:hover{
   background-image: linear-gradient(to right top, #443f42, #493f48, #4b4050, #4a425a, #444564, #495073, #4c5b83, #4d6793, #617ead, #7695c8, #8bade3, #a1c6ff);
+}
+.anotherForm{
+  width:fit-content;
+  height:100%;
+  margin:0 auto;
+  padding-top:5em;
 }
 .break{
   flex-basis:100%;
@@ -213,9 +217,11 @@ div>input{
 
 
 
-.home,.middle{
+
+.hidden{
   display:none;
 }
+
 
 
 /******************************************
