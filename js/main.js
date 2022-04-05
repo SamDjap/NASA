@@ -5,12 +5,6 @@
 
 
 
-
-
-
-
-
-
 document.getElementById('btn1').addEventListener('click' , searchPage)
 document.getElementById('btn2').addEventListener('click' , searchResult , getFetch)
 document.getElementById('btn3').addEventListener('click' , searchAgain)
