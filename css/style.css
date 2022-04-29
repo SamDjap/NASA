@@ -10,12 +10,33 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
+
+
+body{
+  background-image: url("/img/background5.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:whitesmoke;
+  font
+}
+.logo{
+  display:flex;
+  align-items: center;
+  height:100px;
+  width:auto;
+  margin:auto;
+}
+.nasaPic{
   max-width:100%;
   height:auto;
   max-height:100%;
 }
-
+input,button{
+  width:100px;
+  height:200px;
+  background-color: rgb(47, 77, 177);
+  border-radius: 10px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
