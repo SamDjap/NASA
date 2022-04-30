@@ -10,14 +10,16 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-
+html{
+  min-height:100%;
+}
 body{
   background-image: url("/img/background5.jpg");
   background-repeat:no-repeat;
   background-size:cover;
+  background-position:center center;
   color:whitesmoke;
-  font
+  font-family: 'Orbitron', sans-serif;
 }
 .logo{
   display:flex;
@@ -26,17 +28,55 @@ body{
   width:auto;
   margin:auto;
 }
+.intro{
+  height:500px;
+  max-height:auto;
+  margin:0 20%;
+  border-radius:20px;
+  background-color:hsla(0, 0%, 0%, 0.48);
+  text-align:center;
+  font-weight:500;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.says{
+  font-size:30px;
+}
+.says>p+p{
+  font-weight:900;
+  line-height:0rem;
+  font-size:70px;
+}
+.begin{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:5rem;
+}
+
+.begin button{
+  height:60px;
+  width:300px;
+  font-size:20px;
+  font-weight:700;
+  border-radius:20px;
+  background-color: hsla(0, 0%, 14%, 0.87);
+  color:whitesmoke
+}
+
+
+
+
 .nasaPic{
   max-width:100%;
   height:auto;
   max-height:100%;
 }
-input,button{
-  width:100px;
-  height:200px;
-  background-color: rgb(47, 77, 177);
-  border-radius: 10px;
+.takeOff,form{
+  display:none;
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
