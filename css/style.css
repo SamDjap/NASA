@@ -18,8 +18,9 @@ body{
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center center;
-  color:whitesmoke;
+  color:rgb(177, 170, 170);
   font-family: 'Orbitron', sans-serif;
+  min-height: 100%;
 }
 .logo{
   display:flex;
@@ -55,7 +56,7 @@ body{
   padding-top:5rem;
 }
 
-.btn,.another{
+.btn{
   height:60px;
   width:300px;
   font-size:20px;
@@ -76,6 +77,17 @@ a,.btn{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 .takeOff{
     height:1150px;
     border-radius:20px;
@@ -87,25 +99,121 @@ a,.btn{
     justify-content: flex-start;
     padding-top:5em
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.nasaPic{
-  max-width:100%;
-  height:auto;
-  max-height:100%;
+.purpose>p{
+  font-size:2em;
+  padding:0 6em;
 }
-.intro,.begin{
+.purpose h1, .purpose p{
+  padding-bottom:3em;
+}
+.dateInput{
+  font-size:2em;
+}
+form>div{
+  padding-bottom:2em;
+}
+div>input{
+  height:2em;
+  font-size:2em;
+  border-radius: 10px;
+}
+.liftOff{
+  height:60px;
+  width:300px;
+  font-size:20px;
+  font-weight:700;
+  border-radius:20px;
+  background-image: linear-gradient(to right, #e7e9eb, #cacbcc, #adaeaf, #919192, #767676);
+  color:rgb(248, 248, 248);
+  border:none;
+}
+.liftOff:hover{
+  background-image: linear-gradient(to right top, #443f42, #493f48, #4b4050, #4a425a, #444564, #495073, #4c5b83, #4d6793, #617ead, #7695c8, #8bade3, #a1c6ff);
+}
+
+
+
+
+
+
+
+
+.info{
+  height:1150px;
+  max-width:100%;
+  border-radius:20px;
+  background-color:hsla(0, 0%, 0%, 0.48);
+  font-weight:500;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:space-around;
+  padding-top:10em;
+
+
+}
+.imageHere{
+  height:40em;
+  width:60em;
+  max-width:100%;
+  max-height:100%;
+  border:1px solid white;
+}
+.imageHere>img{
+  max-width:100%;
+  max-height:100%;
+
+}
+.description{
+  height:40em;
+  width:60em;
+  max-height:100%;
+  max-width:100%;
+  background-color:hsla(0, 0%, 0%, 0.60);
+  border-radius: 10px;
+}
+
+
+.description>h3{
+  padding-left:3em;
+}
+.anotherOne{
+  height:60px;
+  width:300px;
+  font-size:20px;
+  font-weight:700;
+  border-radius:20px;
+  background-image: linear-gradient(to right, #e7e9eb, #cacbcc, #adaeaf, #919192, #767676);
+  color:rgb(248, 248, 248);
+
+}
+.anotherOne:hover{
+  background-image: linear-gradient(to right top, #443f42, #493f48, #4b4050, #4a425a, #444564, #495073, #4c5b83, #4d6793, #617ead, #7695c8, #8bade3, #a1c6ff);
+}
+.break{
+  flex-basis:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home,.middle{
   display:none;
 }
 
