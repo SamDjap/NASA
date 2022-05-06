@@ -4,9 +4,9 @@
 
 <h3 align='center'>Space Portal powered by NASA API</h3>
 <br>
-# About
+<h2>About</h2>
 
-A simple website showing a series of incredible pictures of space from NASA database with user date input.
+<p>A simple website showing a series of incredible pictures of space from NASA database with user date input.</p>
 <br>
 
 <h2>How It's Made</h2>
